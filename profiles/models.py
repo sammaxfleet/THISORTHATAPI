@@ -10,7 +10,9 @@ class Profile(models.Model):
     name = models.CharField(max_length=150, blank=True)
     content = models.TextField(blank=True)
     image = models.ImageField(
-        upload_to='images/', default='../default_profile_qdjgyp')
+        upload_to='images/', default='../default_profile_image_wgl62u'
+    )
+
 
     class Meta:
         ordering = ['-created_at']
@@ -22,6 +24,5 @@ class Profile(models.Model):
 def create_profile(sender, instance, created, **kwargs):
     if created:
         Profile.objects.create(owner=instance)
-
 
 post_save.connect(create_profile, sender=User)
