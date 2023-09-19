@@ -16,6 +16,7 @@ import os
 if os.path.exists('env.py'):
     import env
 
+
 CLOUDINARY_STOREAGE = {
     'CLOUDINARY_URL': os.environ.get('CLOUDINARY_URL')
 }
@@ -35,7 +36,8 @@ SECRET_KEY = 'django-insecure-jrk1#em7)$5y*i^n6u7@hvjd!-5c=do(-x)v#2s%^q-x83c!tn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com',
+                 '8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com']
 
 
 # Application definition
@@ -49,6 +51,9 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+
+    'profiles',
+
 ]
 
 MIDDLEWARE = [
