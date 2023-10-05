@@ -9,13 +9,21 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-
+import re
 from pathlib import Path
 import os
 import dj_database_url
 
 if os.path.exists('env.py'):
     import env
+
+if 'CLIENT_ORIGIN_DEV' in os.environ:
+    extracted_url = re.match(
+        r'^([^.]+)', os.environ.get('CLIENT_ORIGIN_DEV', ''), re.IGNORECASE).group(0)
+
+    CORS_ALLOWED_ORIGIN_REGEXES = [
+        rf"{extracted_url}.(eu|us)\d+\.codeanyapp\.com$",
+    ]
 
 
 CLOUDINARY_STOREAGE = {
@@ -63,7 +71,7 @@ SECRET_KEY = 'django-insecure-jrk1#em7)$5y*i^n6u7@hvjd!-5c=do(-x)v#2s%^q-x83c!tn
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com',
-                 '8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com', 'thisorthatapi-56bb400a2b0e.herokuapp.com']
+                 '8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com', 'thisorthatapi-56bb400a2b0e.herokuapp.com', 'localhost',]
 
 
 # Application definition
