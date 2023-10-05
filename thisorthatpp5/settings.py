@@ -62,7 +62,7 @@ SECRET_KEY = 'django-insecure-jrk1#em7)$5y*i^n6u7@hvjd!-5c=do(-x)v#2s%^q-x83c!tn
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com',
-                 '8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com']
+                 '8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com', 'thisorthatapi-56bb400a2b0e.herokuapp.com']
 
 
 # Application definition
@@ -136,9 +136,9 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     } if 'DEV' in os.environ else dj_database_url.parse(
         os.environ.get('DATABASE_URL')
-    )) 
+    ))
 }
-print ('connected')
+print('connected')
 
 AUTH_PASSWORD_VALIDATORS = [
     {
