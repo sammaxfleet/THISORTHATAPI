@@ -17,13 +17,13 @@ import dj_database_url
 if os.path.exists('env.py'):
     import env
 
-if 'CLIENT_ORIGIN_DEV' in os.environ:
-    extracted_url = re.match(
-        r'^([^.]+)', os.environ.get('CLIENT_ORIGIN_DEV', ''), re.IGNORECASE).group(0)
+# if 'CLIENT_ORIGIN_DEV' in os.environ:
+#     extracted_url = re.match(
+#         r'^([^.]+)', os.environ.get('CLIENT_ORIGIN_DEV', ''), re.IGNORECASE).group(0)
 
-    CORS_ALLOWED_ORIGIN_REGEXES = [
-        rf"{extracted_url}.(eu|us)\d+\.codeanyapp\.com$",
-    ]
+#     CORS_ALLOWED_ORIGIN_REGEXES = [
+#         rf"{extracted_url}.(eu|us)\d+\.codeanyapp\.com$",
+#     ]
 
 
 CLOUDINARY_STOREAGE = {
@@ -86,6 +86,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'rest_framework',
+     "corsheaders",
     'django_filters',
     'rest_framework.authtoken',
     'dj_rest_auth',
@@ -107,12 +108,14 @@ SITE_ID = 1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+     "corsheaders.middleware.CorsMiddleware",
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+CORS_ALLOW_ALL_ORIGINS=True
 
 ROOT_URLCONF = 'thisorthatpp5.urls'
 
