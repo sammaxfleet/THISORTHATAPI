@@ -15,7 +15,7 @@ DEPLOYED FRONT END REPO -
 
 # TABLE OF CONTENTS 
 
-DATABASE FLOW CHART:
+# DATABASE FLOW CHART:
 
 <img width="655" alt="Screenshot 2023-12-12 at 14 32 27" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/eb92a86c-9ca7-4c08-beb6-c500243fff78">
 
@@ -26,32 +26,21 @@ DATABASE FLOW CHART:
 
 
 
+# Developer User Stories
 
 
 
-USER STORIES
-
-
-DATABASE
 
 
 
-TESTING
 
 
-MANUAL TESTING
+
+# TESTING
 
 
-## Frameworks, Libraries & Programs Used:
 
-Django
-Django RestFramework
-Cloudinary
-Heroku
-Pillow
-Django Rest Auth
-PostgreSQL
-Cors Headers
+
 
 # DEPLOYMENT to Heroku 
 
@@ -170,6 +159,18 @@ The next step is to set up the environment file so that the project knows what v
 python3 manage.py migrate - This will do the necessary migrations.
 python3 manage.py runserver - If everything i setup correctly the project is now live locally.
 
+
+
+## Frameworks, Libraries & Programs Used:
+
+Django
+Django RestFramework
+Cloudinary
+Heroku
+Pillow
+Django Rest Auth
+PostgreSQL
+Cors Headers
 
 
 # Credits 
