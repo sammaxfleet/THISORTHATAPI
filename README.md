@@ -153,7 +153,7 @@ Scroll down to the manual deployment section and click 'Deploy Branch'. Hopefull
 
 
 
-How To Fork The Repository On GitHub
+# How To Fork The Repository On GitHub
 It is possible to make an independent copy of a GitHub Repository by forking the GitHub account. The copy can then be viewed and it is also possible to make changes in the copy without affecting the original repository. To fork the repository, follow these steps:
 
 After logging in to GitHub, locate the repository. On the top right side of the page there is a 'Fork' button. Click on the button to create a copy of the original repository.
@@ -172,7 +172,10 @@ python3 manage.py runserver - If everything i setup correctly the project is now
 
 
 
+# Credits 
 
+
+# Acknowledgements 
 
 
 
