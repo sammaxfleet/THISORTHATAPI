@@ -40,6 +40,88 @@ DEPLOYED FRONT END REPO -
 
 # Strategy Plane
 
+The Project was managed using Agile Methodology 
+
+An Agile approach to creating this app has been applied. 
+GitHub's projects was used to track user stories and implement ideas based on their level of importance for allowing use of the app with no loss of functionality or user experience.
+FOUR categories were created indicating their level of importance, those were:
+
+- MUST HAVE
+- SHOULD HAVE
+- COULD HAVE
+- WON'T HAVE
+
+By using AGILE methodology in this project I was able to deliver a site which had all required functionality and some more. 
+Due to the time limit on this project I was not able to incorporate all initial listed features. but this is where an AGILE approach is great for app design. 
+The project displays this by all projects being in the 'done' on the kaban board but with different labels. 
+
+
+
+Developer User Stories: 
+
+Milestone: Profiles
+
+User Stories: 
+
+As a developer/superuser I can view a list of all profiles so that I can see all the profiles that have been created
+As a developer/superuser I can view the details of one profile so that I can see individual profile data
+As a developer/superuser I can edit a profile when I am logged in so that update my personal information
+As a developer/superuser I can delete a profile that I own so that I can delete my user account from the API
+
+
+Milestone: Posts
+
+User Stories: 
+
+As a developer/superuser I can view a list of all posts so that I can see all posts at once
+As a developer/superuser I can view a single post so that I can see single post details, including comments
+As a developer/superuser I can create a new post so that this post will be displayed in the posts list
+As a developer/superuser I can edit a post that I created so that I can amend any missing or incorrect information on the post
+As a developer/superuser I can delete a post that I created so that I can delete post data from the API
+
+
+Milestone: Comments
+
+User Stories:
+
+As a developer/superuser I can create a comment so that I can link a comment to a post
+As a developer/superuser I can view a list of all comments so that I can see all comments created in the API
+As a developer/superuser I can retrieve a single comment by ID so that I can edit or delete this comment
+As a developer/superuser I can edit a comment that I created so that I can amend any missing or incorrect information
+As a developer/superuser I can delete a comment which I created so that I can delete comment data from the API
+
+Milestone: Likes
+
+User Stories:
+
+As a developer/superuser I can create a liked object linked to a single event so that I can show interest in an event
+As a developer/superuser I can delete a liked object which I created so that I can delete liked data from the API
+As a developer/superuser I can not delete a liked object which I did not create
+As a developer/superuser I can view a list of all likedobjects so that I can see all liked objects created in the API
+
+
+Milestone: Followers
+
+User Stories: 
+
+As a developer/superuser I can create a follow so that I can follow another user
+As a developer/superuser I can view a list of follows so that I can see all the follows that have been created
+As a developer/superuser I can delete a follow so that I can unfollow another user profile
+
+
+Milestone: Search and Filter
+
+User Stories: 
+
+As a developer/superuser I can see a search field in the events and posts list so that I can search for a specific event or post
+As a developer/superuser I can filter the events list by category so that I can see only the events relating to one desired category
+As a developer/superuser I can view a list of events/posts by profiles I follow so that I can see only the events/posts relating to profiles that I like
+As a developer/superuser I can view a list of posts I have posted a like id to so that I can see only the posts I like
+As a developer/superuser I can view a list of events I have posted a bookmarked id to so that I can see only the events I am interested in attending
+As a developer/superuser I can view a list of events/posts relating to just one profile so that I can see only the events/posts created by a single user
+As a developer/superuser I can view a list of comments linked to a particular post so that I can see see the comments relating to one single post id
+As a developer/superuser I can view a list of reviews linked to a particular event so that I can see see the reviews relating to one single event id
+
 
 
 
