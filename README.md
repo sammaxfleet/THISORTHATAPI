@@ -57,9 +57,29 @@ The project displays this by all projects being in the 'done' on the kaban board
 
 
 
+
+
+
+
+
+
 Developer User Stories: 
 
-Milestone: Profiles
+
+milestone Create Main App - thisorthat
+
+milestone: Create the following apps
+
+PROFILES
+POSTS
+COMMENTS
+LIKES 
+FOLLOWERS
+SEARCG & FILTER 
+
+
+
+Milestone: Profiles App 
 
 User Stories: 
 
