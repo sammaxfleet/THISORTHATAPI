@@ -2,14 +2,16 @@
 
 # Description
 
-
-' this or that' is a community for fashion enthusiasts. 
-Users Can post their favourtie celebrity fashion outfit.
-Users can interact once creating a Profile, by liking posts and following each other. 
-The page state changes depending on wether the User is logged in or Out.
-It works with full User CRUD functionality & allows the user to make its own posts which then can be liked by other users. 
-
-
+This is the ReadMe for 'This or That's project's backend.
+'This Or That' is a professional networking platform designed and created for fashion enthusiasts globally.
+Users can interact once creating a Profile, by liking posts and following each others profiles. 
+' this or that' is a community for fashion enthusiasts, users can post their favourtie celebrity fashion outfit, this inspiration can be taken for events. OOTD, general wear for birthdays/ concerts/ or just everyday wear. 
+The page state changes depending on wether the User is logged 'in' or 'Out'. 
+It works with full User CRUD functionality & allows the user to make its own posts which then can be liked by other users too. 
+The 'thisorthat' API provides a backend database to create, view, edit and delete user's posts, likes & comments.
+A user can publish a post, including description, an image, and keyword tags which then can be searched by the user. 
+A user can search via celebrity.
+The API also includes search and filter logic to improve user experience, and make it easier for users to find outfits and posts tailored to their own interests.
 
 
 This project is the backend built to help support the REACTJS frontend, and it is powered by the DJANGO REST FRAMEWORK.
@@ -21,7 +23,12 @@ DEPLOYED FRONT END LIVE SITE -
 DEPLOYED FRONT END REPO - 
 
 
+
+
+
 # TABLE OF CONTENTS 
+
+
 
 # DATABASE FLOW CHART:
 
@@ -30,6 +37,9 @@ DEPLOYED FRONT END REPO -
 
 
 [FLOW CHART API PROJECT 5.pdf](https://github.com/sammaxfleet/THISORTHATAPI/files/13649295/FLOW.CHART.API.PROJECT.5.pdf)
+
+# Strategy Plane
+
 
 
 
@@ -130,7 +140,7 @@ import env
 25. Now it's time for deployment. Scroll to the top of the settings page in Heroku and click the 'Deploy' tab. For deployment method, select 'Github'. Search for the repository name you want to deploy and then click connect.
 26. Scroll down to the manual deployment section and click 'Deploy Branch'. Hopefully the deployment is successful!
     
-
+# Local Deployment
 
 
 # How To Fork The Repository On GitHub
@@ -145,7 +155,10 @@ To fork the repository, follow these steps:
 3. Click on the button to create a copy of the original repository.
 4. Cloning And Setting Up This Project.
 5. To clone and set up this project you need to follow the steps below.
-   
+
+
+Cloning And Setting Up This Project:
+
 Steps:
 
 1. When you are in the repository, find the code tab and click it.
