@@ -1,8 +1,16 @@
 # THIS OR THAT API
 
+# Description
+
+
 ' this or that' is a community for fashion enthusiasts. 
-Users Can post their favourtie celebrity fashion outfit, 
+Users Can post their favourtie celebrity fashion outfit.
 Users can interact once creating a Profile, by liking posts and following each other. 
+The page state changes depending on wether the User is logged in or Out.
+It works with full CRUD functionality. 
+
+
+
 
 This project is the backend built to help support the REACTJS frontend, and it is powered by the DJANGO REST FRAMEWORK.
 
