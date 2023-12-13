@@ -7,7 +7,7 @@
 Users Can post their favourtie celebrity fashion outfit.
 Users can interact once creating a Profile, by liking posts and following each other. 
 The page state changes depending on wether the User is logged in or Out.
-It works with full CRUD functionality. 
+It works with full User CRUD functionality & allows the user to make its own posts which then can be liked by other users. 
 
 
 
