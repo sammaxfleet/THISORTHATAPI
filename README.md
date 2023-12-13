@@ -63,10 +63,11 @@ Milestone: Profiles
 
 User Stories: 
 
-As a developer/superuser I can view a list of all profiles so that I can see all the profiles that have been created
-As a developer/superuser I can view the details of one profile so that I can see individual profile data
-As a developer/superuser I can edit a profile when I am logged in so that update my personal information
-As a developer/superuser I can delete a profile that I own so that I can delete my user account from the API
+1. As a developer/superuser I can view a list of all profiles so that I can see all the profiles that have been created. - 
+2. As a developer/superuser I can view the details of one profile so that I can see individual profile data - SHOULD HAVE
+3. As a developer/superuser I can edit a profile when I am logged in so that update my personal information - MUST HAVE
+4. As a developer/superuser I can delete a profile that I own so that I can delete my user account from the API - MUST HAVE
+5. AS a developer/superuser I can have multiple accounts - WON'T HAVE
 
 
 Milestone: Posts
