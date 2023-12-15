@@ -27,7 +27,9 @@ class Post(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     title = models.CharField(max_length=255)
+    
     content = models.TextField(blank=True)
+    fashion_inspiration = models.TextField(null=True,blank=True,)
     image = models.ImageField(
         upload_to='images/', default='../default_post_rgq6aq', blank=True
     )
