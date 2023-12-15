@@ -61,8 +61,6 @@ The project displays this by all projects being in the 'done' on the kaban board
 
 
 
-
-
 Developer User Stories: 
 
 
@@ -75,7 +73,9 @@ POSTS
 COMMENTS
 LIKES 
 FOLLOWERS
-SEARCG & FILTER 
+SEARCH & FILTER 
+
+
 
 
 
@@ -142,6 +142,17 @@ User Stories:
 6. As a developer/superuser I can view a list of events/posts relating to just one profile so that I can see only the events/posts created by a single user
 7. As a developer/superuser I can view a list of comments linked to a particular post so that I can see see the comments relating to one single post id
 8. As a developer/superuser I can view a list of reviews linked to a particular event so that I can see see the reviews relating to one single event id
+
+
+Edit Profile :
+
+Milestone: profile edit
+
+user story: editing profile 
+
+1. Celebrity search -
+2. Outfit description -
+3. fashion inspiration -
 
 
 
