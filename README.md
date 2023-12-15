@@ -115,8 +115,8 @@ Milestone: Likes
 
 User Stories:
 
-1. As a developer/superuser I can create a liked object linked to a single event so that I can show interest in an event.
-2. As a developer/superuser I can delete a liked object which I created so that I can delete liked data from the API
+1. As a developer/superuser I can create a like a fashion post. 
+2. As a developer/superuser I can delete a liked post which I created so that I can delete liked data from the API
 3. As a developer/superuser I can not delete a liked object which I did not create
 4. As a developer/superuser I can view a list of all likedobjects so that I can see all liked objects created in the API
 
