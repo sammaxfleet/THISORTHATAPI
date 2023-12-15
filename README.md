@@ -153,8 +153,8 @@ user story: editing profile
 1. Celebrity search -
 2. Outfit description -
 3. fashion inspiration -
-
-
+4. Image -
+5.  Update/ Save 
 
 
 
