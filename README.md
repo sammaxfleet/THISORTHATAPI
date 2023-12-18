@@ -46,15 +46,15 @@ DEPLOYED FRONT END REPO -
 - [Acknowledgements](#acknowledgements)
 
 
-# DATABASE FLOW CHART:
 
-<img width="655" alt="Screenshot 2023-12-12 at 14 32 27" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/eb92a86c-9ca7-4c08-beb6-c500243fff78">
 
 
 # The Skeleton Plane 
 [FLOW CHART API PROJECT 5.pdf](https://github.com/sammaxfleet/THISORTHATAPI/files/13649295/FLOW.CHART.API.PROJECT.5.pdf)
 
+# DATABASE FLOW CHART:
 
+<img width="655" alt="Screenshot 2023-12-12 at 14 32 27" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/eb92a86c-9ca7-4c08-beb6-c500243fff78">
 
 I have created the following models for the You.I Backend API:
 
