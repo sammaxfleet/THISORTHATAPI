@@ -60,13 +60,12 @@ The project displays this by all projects being in the 'done' on the kaban board
 
 
 
+# User Stories link https://github.com/users/sammaxfleet/projects/7/views/1
 
-Developer User Stories: 
 
+Milestone Create Main App - thisorthat
 
-milestone Create Main App - thisorthat
-
-milestone: Create the following apps
+Userstory: Create the following apps
 
 PROFILES
 POSTS
@@ -74,8 +73,6 @@ COMMENTS
 LIKES 
 FOLLOWERS
 SEARCH & FILTER 
-
-
 
 
 
@@ -155,6 +152,10 @@ user story: editing profile
 
 
 # TESTING
+
+- Code Validation
+- Automated Testing
+- Manual Testing
 
 
 
@@ -274,7 +275,9 @@ Steps:
 11. Python3 manage.py migrate - This will do the necessary migrations.
 12. Python3 manage.py runserver - If everything is setup correctly the project is now live locally.
 
+# Languages
 
+Python - Provides the functionality for the DRF backend framework.
 
 # Frameworks & Software
 
