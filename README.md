@@ -26,7 +26,24 @@ DEPLOYED FRONT END REPO -
 
 
 # TABLE OF CONTENTS 
-
+- [THIS OR THAT API](#this-or-that-api)
+- [Description](#description)
+- [TABLE OF CONTENTS](#table-of-contents)
+- [DATABASE FLOW CHART:](#database-flow-chart-)
+- [Strategy Plane](#strategy-plane)
+- [User Stories link https://github.com/users/sammaxfleet/projects/7/views/1](#user-stories-link-https---githubcom-users-sammaxfleet-projects-7-views-1)
+- [Stucture Plane](#stucture-plane)
+  * [Homepage:](#homepage-)
+  * [Profile Data:](#profile-data-)
+  * [Posts](#posts)
+- [TESTING](#testing)
+- [DEPLOYMENT to Heroku](#deployment-to-heroku)
+- [Local Deployment](#local-deployment)
+- [How To Fork The Repository On GitHub](#how-to-fork-the-repository-on-github)
+- [Languages](#languages)
+- [Frameworks & Software](#frameworks---software)
+  * [Libraries](#libraries)
+- [Acknowledgements](#acknowledgements)
 
 
 # DATABASE FLOW CHART:
