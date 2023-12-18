@@ -135,13 +135,9 @@ Milestone: Search and Filter
 User Stories: 
 
 1. As a developer/superuser I can see a search field in the events and posts list so that I can search for a specific event or post
-2. As a developer/superuser I can filter the events list by category so that I can see only the events relating to one desired category
-3. As a developer/superuser I can view a list of events/posts by profiles I follow so that I can see only the events/posts relating to profiles that I like
-4. As a developer/superuser I can view a list of posts I have posted a like id to so that I can see only the posts I like
-5. As a developer/superuser I can view a list of events I have posted a bookmarked id to so that I can see only the events I am interested in attending
-6. As a developer/superuser I can view a list of events/posts relating to just one profile so that I can see only the events/posts created by a single user
-7. As a developer/superuser I can view a list of comments linked to a particular post so that I can see see the comments relating to one single post id
-8. As a developer/superuser I can view a list of reviews linked to a particular event so that I can see see the reviews relating to one single event id
+2. As a developer/superuser I can search by celebrity 
+3. As a developer/superuser I can view a list of posts I have posted a like id to so that I can see only the posts I like
+
 
 
 Edit Profile :
@@ -155,16 +151,6 @@ user story: editing profile
 3. fashion inspiration -
 4. Image -
 5.  Update/ Save 
-
-
-
-# Developer User Stories
-
-
-
-
-
-
 
 
 
@@ -290,22 +276,38 @@ Steps:
 
 
 
-## Frameworks, Libraries & Programs Used:
+# Frameworks & Software
 
-Django
 Django RestFramework
+PEP8 Validation
+GitHub
 Cloudinary
 Heroku
-Pillow
-Django Rest Auth
-PostgreSQL
-Cors Headers
 
 
-# Credits 
+## Libraries 
+
+Cloudinary
+dj - rest- auth
+Django
+django-allauth
+django-cloudinary-storage 
+django-cors-headers 
+django-filter
+django-taggit 
+django-rest-framework 
+gunicorn
+pillow 
+psycopg2
+sqlparse
+
+
 
 
 # Acknowledgements 
 
+- My mentor at Code Institute Antonio Rodriguez, for code review, help and feedback. Very much appreciated!
+- Also the tutors at code institute particularly helping with the API build. 
+- My setpember code institute channel  for the support and weekly group chats. 
 
 
