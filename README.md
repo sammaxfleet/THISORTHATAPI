@@ -51,8 +51,20 @@ DEPLOYED FRONT END REPO -
 <img width="655" alt="Screenshot 2023-12-12 at 14 32 27" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/eb92a86c-9ca7-4c08-beb6-c500243fff78">
 
 
-
+# The Skeleton Plane 
 [FLOW CHART API PROJECT 5.pdf](https://github.com/sammaxfleet/THISORTHATAPI/files/13649295/FLOW.CHART.API.PROJECT.5.pdf)
+
+
+
+I have created the following models for the You.I Backend API:
+
+Users (slightly customised from the Django standard User model)
+Profiles (automatically created on User creation and customised)
+Posts (a professional networking post publicised by a logged in user)
+Likes (to indicate if a user likes another user's professional networking post)
+Comments (to make a comment on a professional networking post)
+Followers (For users to follow each other)
+The relationships between all of these models is summarised in the followed entity relationship diagram:
 
 # Strategy Plane
 
