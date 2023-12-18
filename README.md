@@ -25,7 +25,6 @@ DEPLOYED FRONT END REPO -
 
 
 
-
 # TABLE OF CONTENTS 
 
 
@@ -156,6 +155,103 @@ user story: editing profile
 # Stucture Plane
 
 
+Features
+
+## Homepage:
+
+
+When you first enter the API site, you are directed to the Root Route homepage, with a message welcoming you to the API,
+
+<img width="1435" alt="Screenshot 2023-12-18 at 14 31 16" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/0acf7ec6-c923-4c71-9c93-34d5e46ef488">
+
+
+
+## Profile Data: 
+
+Within the Profile List section, a user can view a list of all profiles in the API.
+
+<img width="1320" alt="Screenshot 2023-12-18 at 14 32 43" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/3f0fc8fe-91d3-4ad0-8361-4d1cc3fac65d">
+
+I also added the following fields to the Json DATA
+
+"is_owner": 
+"following_id": 
+"posts_count":
+"followers_count":
+"following_count": 
+
+If the user logs in, and views the detail of their own profile, additional Edit and Delete functionality becomes available. A pre-populated form is available to edit the profile model fields. A delete button is available to delete the profile from the API.
+
+## Posts
+
+
+Within the Posts List section, a user can view a list of all posts in the API.
+<img width="1324" alt="Screenshot 2023-12-18 at 14 36 15" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/9da305ee-696f-49ea-833f-99663120f990">
+
+I also added the following fields to the Json DATA
+
+            "id": 
+            "owner": 
+            "is_owner": 
+            "profile_id": 
+            "profile_image":
+            "created_at":
+            "updated_at": 
+            "title":
+            "content": 
+            "image": 
+            "image_filter":
+            "like_id":
+            "likes_count": 
+            "comments_count": 
+            "fashion_inspiration": 
+
+
+
+
+
+      
+  Likes: 
+
+  Within the Likes List section, a user can view a list of all likes made in the API.
+
+  
+<img width="1227" alt="Screenshot 2023-12-18 at 14 46 39" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/cd120197-c3a1-4ab1-909d-7a20e5ef47e9">
+
+f the user logs in,  the ability to create a like becomes available if not they'll click but nothing will happen .
+
+If a user tries to like the same post twice, they see an error message saying that they have already liked the selected post, and the duplicate like is not created. 
+The user can like and unlike any posts on the page including their own. 
+
+
+Comments:
+
+Within the Comments List section, a user can view a list of all comments in the API.
+
+
+<img width="378" alt="Screenshot 2023-12-18 at 14 47 29" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/2053f171-8bb9-434e-8739-efd3c09cdf54">
+
+
+
+Once logged in THE USER can then comment on posts. They can make changes to a post or even delete it. 
+
+
+
+
+Followers: 
+
+Within the Follower List section, a user can view a list of all follower posts in the API.
+
+<img width="514" alt="Screenshot 2023-12-18 at 14 47 50" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/a71df09b-7399-4d82-be58-096e48e3f513">
+
+
+The User when logged in will be able to follow and unfollow different profiles.
+
+On the page popular users appears which enables to user to click on highly popular profiles straight away. 
+
+If a user tries to follow the same profile twice, they see an error message saying that they are already following the selected profile, and the duplicate follow post is not created.
+
+Once logged in, if the user views the details of a single follower post which they created additional Delete functionality becomes available. It is not possible to Edit a follower post.
 
 
 # TESTING
@@ -163,8 +259,6 @@ user story: editing profile
 - Code Validation
 - Automated Testing
 - Manual Testing
-
-
 
 
 
