@@ -72,7 +72,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com',
 #                  '8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com', 'thisorthatapi-56bb400a2b0e.herokuapp.com', 'localhost',]
-ALLOWED_HOSTS=['*']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -86,7 +86,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'rest_framework',
-     "corsheaders",
+    'corsheaders',
     'django_filters',
     'rest_framework.authtoken',
     'dj_rest_auth',
@@ -108,15 +108,15 @@ SITE_ID = 1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-     "corsheaders.middleware.CorsMiddleware",
-       "whitenoise.middleware.WhiteNoiseMiddleware",
+    'corsheaders.middleware.CorsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-CORS_ALLOW_ALL_ORIGINS=True
+CORS_ALLOW_ALL_ORIGINS = True
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 ROOT_URLCONF = 'thisorthatpp5.urls'
 
