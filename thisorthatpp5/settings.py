@@ -36,20 +36,22 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': [(
-        'rest_framework.authentication.SessionAuthentication'
-        if 'DEV' in os.environ
-        else 'dj_rest_auth.jwt_auth.JWTCookieAuthentication'
-    )],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+          'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'dj_rest_auth.jwt_auth.JWTCookieAuthentication',
+        # if 'DEV' in os.environ
+        # else 
+    ],
     'DEFAULT_PAGINATION_CLASS':
         'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10,
     'DATETIME_FORMAT': '%d %b %Y',
 }
-if 'DEV' not in os.environ:
-    REST_FRAMEWORK['DEFAULT_RENDERER_CLASSES'] = [
-        'rest_framework.renderers.JSONRenderer',
-    ]
+# if 'DEV' not in os.environ:
+#     REST_FRAMEWORK['DEFAULT_RENDERER_CLASSES'] = [
+#         'rest_framework.renderers.JSONRenderer',
+#     ]
 REST_USE_JWT = True
 JWT_AUTH_SECURE = True
 JWT_AUTH_COOKIE = 'my-app-auth'
@@ -68,11 +70,11 @@ REST_AUTH_SERIALIZERS = {
 SECRET_KEY = 'django-insecure-jrk1#em7)$5y*i^n6u7@hvjd!-5c=do(-x)v#2s%^q-x83c!tn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com','thisorthatpp5-9e3adcfaf8e9.herokuapp.com',
-                 '8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com', 'thisorthatapi-56bb400a2b0e.herokuapp.com', 'localhost',]
-# ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com','thisorthatpp5-9e3adcfaf8e9.herokuapp.com',
+                #  '8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com', 'thisorthatapi-56bb400a2b0e.herokuapp.com', 'localhost',]
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -103,6 +105,7 @@ INSTALLED_APPS = [
     'comments',
     'likes',
     'followers',
+    'saved',
 ]
 SITE_ID = 1
 MIDDLEWARE = [
@@ -144,13 +147,13 @@ WSGI_APPLICATION = 'thisorthatpp5.wsgi.application'
 
 
 DATABASES = {
-    'default': ({
+    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-    } if 'DEV' in os.environ else dj_database_url.parse(
-        os.environ.get('DATABASE_URL')
-    ))
+    }
 }
+# if not 'DEV' in os.environ:
+#     DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 print('connected')
 
 AUTH_PASSWORD_VALIDATORS = [
