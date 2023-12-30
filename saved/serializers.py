@@ -8,7 +8,7 @@ class PostSavedSerializer (serializers.ModelSerializer):
     class Meta:
         model =Post
         fields = [
-            'id', 'owner','title',
+            'id', 'owner','title','image',
         ]
 class SavedSerializer(serializers.ModelSerializer):
     """
