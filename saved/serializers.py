@@ -16,13 +16,15 @@ class SavedSerializer(serializers.ModelSerializer):
     The create method handles the unique constraint on 'owner' and 'post'
     """
     owner = serializers.ReadOnlyField(source='owner.username')
-    post = PostSavedSerializer(many=True)
+    post = PostSavedSerializer(many=False,read_only=True)
     class Meta:
         model = Saved
         fields = ['id', 'created_at', 'owner', 'post']
 
+
     # def create(self, validated_data):
     #     try:
+    #         print("validatedated data",validated_data)
     #         return super().create(validated_data)
     #     except IntegrityError:
     #         raise serializers.ValidationError({
