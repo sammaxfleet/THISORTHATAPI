@@ -432,6 +432,29 @@ COMMENTS APP - MODELS.PY
 
 
 
+SAVED APP :
+
+SAVED APP - VIEWS.PY
+
+<img width="1234" alt="SAVEDVIEWSPY" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/a86e9aee-daaf-4c38-8052-3884bd78c4bc">
+
+SAVED APP - URLS.PY
+
+<img width="1142" alt="SAVEDURLSPY" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/26310a98-bf7b-4160-a757-b3d9f3b9761f">
+
+SAVED APP - MODELS.PY
+
+<img width="1148" alt="PROFILES MODELSPY" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/303ee504-5a91-4788-aa73-531b6f4683a2">
+
+SAVED APP - APPS.PY
+
+<img width="1197" alt="SAVEDAPPSPY" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/92263d2d-8f7f-4ddb-88b7-f46defe495cc">
+
+SAVED APP - SERIALIZERS.PY
+
+<img width="1187" alt="SAVEDSERIALIZERSPY" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/9db3e579-a25f-42c6-b2df-68eb9d3d2502">
+
+
 # DEPLOYMENT to Heroku 
 
 The project was deployed to Heroku, the deployment process is as follows:
