@@ -237,7 +237,7 @@ EPIC: Saved & customized model
 
 User Stories: 
 
-1. As a user, I want to be able to save listings to myp profile so that I can easily access them later - MUST HAVE
+1. As a user, I want to be able to save listings to my profile so that I can easily access them later - MUST HAVE
 2. As a user, I want to be able to organize and categorize my saved listings into folders or tags for better organization- WON'T HAVE
 3. As a user, I want to receive notifications when there are updates or changes to my saved listings - WON't HAVE
 4. AS a User, i want to be able to unsave from my profile. - MUST HAVE
