@@ -2,25 +2,26 @@
 
 # Description
 
-This is the ReadMe for 'This or That's project's backend.
+This project is the backend built to help support the REACTJS frontend, and it is powered by the DJANGO REST FRAMEWORK.
 'This Or That' is a professional networking platform designed and created for fashion enthusiasts globally.
 Users can interact once creating a Profile, by liking posts and following each others profiles. 
-' this or that' is a community for fashion enthusiasts, users can post their favourtie celebrity fashion outfit, this inspiration can be taken for events. OOTD, general wear for birthdays/ concerts/ or just everyday wear. 
+' This or that' is a community for fashion enthusiasts, Users can post their favourtie celebrity fashion outfit, this inspiration can be taken for events. OOTD, general wear for birthdays/ concerts/ or just everyday wear. 
 The page state changes depending on wether the User is logged 'in' or 'Out'. 
 It works with full User CRUD functionality & allows the user to make its own posts which then can be liked by other users too. 
-The 'thisorthat' API provides a backend database to create, view, edit and delete user's posts, likes & comments.
-A user can publish a post, including description, an image, and keyword tags which then can be searched by the user. 
-A user can search via celebrity.
+
+
+The 'thisorthat' API provides a backend database to create, view, edit and delete Profile aswell as User's posts, likes & comments & Saved models. 
+A user can publish a post, including description, an image, fashion insipration  and keyword tags which then can be searched by the user. 
+These filters are done by me, 
+A user can search via celebrity, with a keyword search. 
 The API also includes search and filter logic to improve user experience, and make it easier for users to find outfits and posts tailored to their own interests.
 
 
-This project is the backend built to help support the REACTJS frontend, and it is powered by the DJANGO REST FRAMEWORK.
+DEPLOYED BACK END API LINK - https://thisorthatapi-56bb400a2b0e.herokuapp.com/
 
-DEPLOYED BACK END API LINK - 
+DEPLOYED FRONT END LIVE SITE - https://thisorthatpp5-9e3adcfaf8e9.herokuapp.com/
 
-DEPLOYED FRONT END LIVE SITE -
-
-DEPLOYED FRONT END REPO - 
+DEPLOYED FRONT END REPOSITORY - https://github.com/sammaxfleet/thisorthatpp5?tab=readme-ov-file
 
 
 
@@ -48,8 +49,8 @@ DEPLOYED FRONT END REPO -
 
 
 
-
 # The Skeleton Plane 
+
 [FLOW CHART API PROJECT 5.pdf](https://github.com/sammaxfleet/THISORTHATAPI/files/13649295/FLOW.CHART.API.PROJECT.5.pdf)
 
 # DATABASE FLOW CHART:
@@ -66,6 +67,7 @@ I have created the following models for the You.I Backend API:
 - Likes (to indicate if a user likes another user's professional networking post)
 - Comments (to make a comment on a professional networking post)
 - Followers (For users to follow each other)
+- Saved (for users to save their favourite posts)
 
 
 # Strategy Plane
@@ -73,7 +75,7 @@ I have created the following models for the You.I Backend API:
 The Project was managed using Agile Methodology 
 
 An Agile approach to creating this app has been applied. 
-GitHub's projects was used to track user stories and implement ideas based on their level of importance for allowing use of the app with no loss of functionality or user experience.
+GitHub's projects was used to track User Stories and implement ideas based on their level of importance for allowing use of the app with no loss of functionality or user experience.
 FOUR categories were created indicating their level of importance, those were:
 
 - MUST HAVE
@@ -82,9 +84,8 @@ FOUR categories were created indicating their level of importance, those were:
 - WON'T HAVE
 
 By using AGILE methodology in this project I was able to deliver a site which had all required functionality and some more. 
-Due to the time limit on this project I was not able to incorporate all initial listed features. but this is where an AGILE approach is great for app design. 
+Due to the time limit on this project I was not able to incorporate all initial listed features. But this is where an AGILE approach is great for app design. 
 The project displays this by all projects being in the 'done' on the kaban board but with different labels. 
-
 
 
 # User Stories link https://github.com/users/sammaxfleet/projects/7/views/1
@@ -92,13 +93,16 @@ The project displays this by all projects being in the 'done' on the kaban board
 <img width="1432" alt="Screenshot 2023-12-18 at 10 35 14" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/8faf4bf5-3200-4b9a-ba4c-39eab1b7b68f">
 
 
+# Manual Testing
 
-##User Stories 
 
+## User Stories 
 
-Milestone Create Main App - thisorthat
+The primary objective of the API is to establish seamless communication between the backend and frontend components, enabling the fulfillment of user stories exclusively designed for the frontend aspect of the project. Below, you will find a comprehensive inventory of the user stories specifically tailored for the frontend:
 
-Userstory: Create the following apps
+Apps Created: 
+
+(MAIN APP )- This Or That
 
 PROFILES
 POSTS
@@ -106,9 +110,49 @@ COMMENTS
 LIKES 
 FOLLOWERS
 SEARCH & FILTER 
+SAVED
+
+
+Epic : Authentication
+
+User Stories:
+
+1. As a user, I want to be able to create an account so that I can access all website features.
+2. As a user, I want to be able to log in so that I can use the features available for existing users.
+3. As a user, I want to be able to log out so that I can safely exit my account.
+4. As a user, I want to see my login status (whether I am logged in or logged out) so that I can make informed decisions about the actions I want to take.
 
 
 
+Epic: (MAIN APP) This or that
+
+User Stories:
+
+1. As a user, I want to be able to create an account so that I can access all the features of ThisorThat.
+2. As a user, I want to be able to log in so that I can manage my account and interact with the platform.
+3. As a user, I want to be able to log out so that I can securely exit my account.
+4. As a user, I want to be able to search for select celebrities that I'm inspired by.
+5. As a user, I want to be able to comment and interact with others
+6. As a user, I want to be able to save my favurite outfits
+7. As a user, I want to be able to follow and like different post.
+
+
+
+Epic: Admin
+
+User Stories:
+
+
+1. As an admin, I want to be able to manage user accounts, including the ability to suspend or delete accounts, to ensure the platform's integrity and security.
+2. As an admin, I want to be able to manage the listings, including the ability to review, approve, or remove listings based on adherence to platform guidelines.
+3. As an admin, I want to be able to respond to user inquiries or issues promptly, to provide excellent customer support.
+
+
+
+Epic: Navigation
+
+1. As a user, I can view the navigation bar on every single page so that I can navigate easily.
+2. As a user, I can scroll infinitely through the pages, without having to manually click on pages to load more content.
 Milestone: Profiles App 
 
 User Stories: 
