@@ -89,11 +89,10 @@ The project displays this by all projects being in the 'done' on the kaban board
 
 
 
-# User Stories link https://github.com/users/sammaxfleet/projects/7/views/1
+## User Stories link https://github.com/sammaxfleet/THISORTHATAPI/issues
 
-# Kaban Board link https://github.com/users/sammaxfleet/projects/7/views/1
+## Kaban Board link https://github.com/users/sammaxfleet/projects/7/views/1
 
-<img width="1437" alt="Screenshot 2023-12-18 at 10 46 04" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/a8b4c61f-df5e-4b8e-8608-7d265ab47e1f">
 
 <img width="932" alt="Screenshot 2024-01-01 at 17 53 03" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/de312f07-b366-436e-a442-cbdec8ce31be">
 
