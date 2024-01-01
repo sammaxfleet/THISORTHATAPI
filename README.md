@@ -195,27 +195,27 @@ Milestone: Comments
 
 User Stories:
 
-1. As a developer/superuser I can create a comment so that I can link a comment to a post - 
-2. As a developer/superuser I can view a list of all comments so that I can see all comments created in the API
-3. As a developer/superuser I can retrieve a single comment by ID so that I can edit or delete this comment
-4. As a developer/superuser I can edit a comment that I created so that I can amend any missing or incorrect information
-5. As a developer/superuser I can delete a comment which I created so that I can delete comment data from the API
+1. As a developer/superuser I can create a comment so that I can link a comment to a post - SHOULD HAVE 
+2. As a developer/superuser I can view a list of all comments so that I can see all comments created in the API - SHOULD HAVE
+3. As a developer/superuser I can retrieve a single comment by ID so that I can edit or delete this comment - SHOULD HAVE
+4. As a developer/superuser I can Edit a comment that I created so that I can amend any missing or incorrect information - MUST HAVE
+5. As a developer/superuser I can delete a comment which I created so that I can delete comment data from the API - MUST HAVE
 
 Milestone: Likes
 
 User Stories:
 
-1. As a developer/superuser I can create a like a fashion post. 
-2. As a developer/superuser I can delete a liked post which I created so that I can delete liked data from the API
-3. As a developer/superuser I can not delete a liked object which I did not create
-4. As a developer/superuser I can view a list of all likedobjects so that I can see all liked objects created in the API
+1. As a developer/superuser I can press the like button and it work  - MUST HAVE
+2. As a developer/superuser I can delete a liked post which I created so that I can delete liked data from the API - MUST HAVE
+3. As a developer/superuser I can not delete a liked object which I did not create - MUST HAVE 
+4. As a developer/superuser I can view a list of all likedobjects so that I can see all liked objects created in the API - MUST HAVE
 
 
 Milestone: Followers
 
 User Stories: 
 
-1. As a developer/superuser I can create a follow so that I can follow another user
+1. As a developer/superuser I can create a follow so that I can follow another User - 
 2. As a developer/superuser I can view a list of follows so that I can see all the follows that have been created
 3. As a developer/superuser I can delete a follow so that I can unfollow another user profile
 
