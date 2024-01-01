@@ -100,7 +100,7 @@ The project displays this by all projects being in the 'done' on the kaban board
 
 The primary objective of the API is to establish seamless communication between the backend and frontend components, enabling the fulfillment of user stories exclusively designed for the frontend aspect of the project. Below, you will find a comprehensive inventory of the user stories specifically tailored for the frontend:
 
-Apps Created: 
+Apps  & MODELS Created: 
 
 (MAIN APP )- This Or That
 
@@ -226,7 +226,7 @@ User Stories:
 2. As a developer/superuser I can view a list of posts I have posted a like id to so that I can see only the posts I like - SHOULD HAVE 
 
 
-EPIC: Saved 
+EPIC: Saved & customized model 
 
 User Stories: 
 
@@ -237,7 +237,7 @@ User Stories:
 
 
 
-Epic: customized Post model 
+Epic: customized filtered search 
 
 
 User Stories: 
@@ -247,6 +247,13 @@ User Stories:
 3. fashion inspiration - MUST HAVE 
 4. Image - MUST HAVE 
 5.  Update/ Save  - MUST HAVE
+
+
+Epic: WORKING & DEPLOYED API
+
+1. GET THE ADMIN WORKING - MUST HAVE
+2. DEPLOY THE API SO THE APPS OR WORKING 0 MUST HAVE
+
 
 
 # Stucture Plane
