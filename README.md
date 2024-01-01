@@ -243,7 +243,6 @@ User Stories:
 4. AS a User, i want to be able to unsave from my profile. - MUST HAVE
 
 
-
 Epic: customized filtered search 
 
 
@@ -263,10 +262,11 @@ Epic: WORKING & DEPLOYED API
 
 
 
-# Stucture Plane
+# Stucture Plane & admin for the backend
 
 
-Features
+Features: 
+
 
 ## Homepage:
 
@@ -369,11 +369,12 @@ Once logged in, if the user views the details of a single follower post which th
 
 - Code Validation
 - Automated Testing
-- Manual Testing
 
-PEP8 Validation
+# PEP8 Validation
 
 I've tested all the files through the CI PEP8 Linter and although I found a few errors, I have rectified these and now all files are passing with "All clear, no errors found".
+
+During the development of the project, the pycodestyle package played a crucial role in ensuring code quality. It was used to validate and fix any code-related issues consistently. I'm pleased to report that in the final deployed version, there were no validation errors detected by pycodestyle.This highlights the commitment to maintaining clean and compliant code throughout the development process.
 
 
 MAIN APP:
@@ -677,8 +678,6 @@ gunicorn
 pillow 
 psycopg2
 sqlparse
-
-
 
 
 # Acknowledgements 
