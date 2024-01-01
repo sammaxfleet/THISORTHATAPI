@@ -117,10 +117,10 @@ Epic : Authentication
 
 User Stories:
 
-1. As a user, I want to be able to create an account so that I can access all website features.
-2. As a user, I want to be able to log in so that I can use the features available for existing users.
-3. As a user, I want to be able to log out so that I can safely exit my account.
-4. As a user, I want to see my login status (whether I am logged in or logged out) so that I can make informed decisions about the actions I want to take.
+1. As a user, I want to be able to create an account so that I can access all website features. - MUST HAVE
+2. As a user, I want to be able to log in so that I can use the features available for existing users. - MUST HAVE
+3. As a user, I want to be able to log out so that I can safely exit my account. - MUST HAVE
+4. As a user, I want to see my login status (whether I am logged in or logged out) so that I can make informed decisions about the actions I want to take. - MUST HAVE
 
 
 
@@ -128,13 +128,13 @@ Epic: (MAIN APP) This or that
 
 User Stories:
 
-1. As a user, I want to be able to create an account so that I can access all the features of ThisorThat.
-2. As a user, I want to be able to log in so that I can manage my account and interact with the platform.
-3. As a user, I want to be able to log out so that I can securely exit my account.
-4. As a user, I want to be able to search for select celebrities that I'm inspired by.
-5. As a user, I want to be able to comment and interact with others
-6. As a user, I want to be able to save my favurite outfits
-7. As a user, I want to be able to follow and like different post.
+1. As a user, I want to be able to create an account so that I can access all the features of ThisorThat - MUST HAVE
+2. As a user, I want to be able to log in so that I can manage my account and interact with the platform. - MUST HAVE
+3. As a user, I want to be able to log out so that I can securely exit my account. - MUST HAVE
+4. As a user, I want to be able to search for select celebrities that I'm inspired by. - SHOULD HAVE
+5. As a user, I want to be able to comment and interact with others - SHOULD HAVE
+6. As a user, I want to be able to save my favurite outfits - COULD HAVE
+7. As a user, I want to be able to follow and like different post. - SHOULD HAVE
 
 
 
@@ -143,21 +143,37 @@ Epic: Admin
 User Stories:
 
 
-1. As an admin, I want to be able to manage user accounts, including the ability to suspend or delete accounts, to ensure the platform's integrity and security.
-2. As an admin, I want to be able to manage the listings, including the ability to review, approve, or remove listings based on adherence to platform guidelines.
-3. As an admin, I want to be able to respond to user inquiries or issues promptly, to provide excellent customer support.
+1. As an admin, I want to be able to manage user accounts, including the ability to suspend or delete accounts, to ensure the platform's integrity and security. - MUST HAVE
+2. As an admin, I want to be able to manage the Posts, including the ability to review, approve, or remove listings based on adherence to platform guidelines. - MUST HAVE
+3. As an admin, I want to be able to respond to user inquiries or issues promptly, to provide excellent customer support - MUST HAVE
 
 
 
 Epic: Navigation
 
-1. As a user, I can view the navigation bar on every single page so that I can navigate easily.
-2. As a user, I can scroll infinitely through the pages, without having to manually click on pages to load more content.
+1. As a user, I can view the navigation bar on every single page so that I can navigate easily. - SHOULD HAVE
+2. As a user, I can scroll infinitely through the pages, without having to manually click on pages to load more content. - SHOULD HAVE
+3. AS a user the navbar hould change wether logged in or out - SHOULD HAVE
+
+
+
+This or That's Functionality
+
+
+1. As a user, I want to be able to search celebrity names to see my favourite outfits. - SHOULD HAVE
+2. As a user, I want to be able to saved different outfits to my profile - SHOULD HAVE
+3. As a user, I want to be able to comment my opinion. - SHOULD HAVE
+4. As a user, I want to be able to view high-quality images of the outfits to get a better visual representation. - SHOUDL HAVE 
+5. As a user, I want to be notified when i LIKE UNLIKE, SAVE, UNSAVE, FOLLOW OR UNFOLLOW. - COULD HAVE
+
+
+
+
 Milestone: Profiles App 
 
 User Stories: 
 
-1. As a developer/superuser I can view a list of all profiles so that I can see all the profiles that have been created. - 
+1. As a developer/superuser I can view a list of all profiles so that I can see all the profiles that have been created. - WON'T HAVE
 2. As a developer/superuser I can view the details of one profile so that I can see individual profile data - SHOULD HAVE
 3. As a developer/superuser I can edit a profile when I am logged in so that update my personal information - MUST HAVE
 4. As a developer/superuser I can delete a profile that I own so that I can delete my user account from the API - MUST HAVE
@@ -168,18 +184,18 @@ Milestone: Posts
 
 User Stories: 
 
-1. As a developer/superuser I can view a list of all posts made by user in date order 
-2. As a developer/superuser I can view a single post so that I can see single post details, including comments
-3. As a developer/superuser I can create a new post so that this post will be displayed in the posts list
-4. As a developer/superuser I can edit a post that I created so that I can amend any missing or incorrect information on the post
-5. As a developer/superuser I can delete a post that I created so that I can delete post data from the API
+1. As a developer/superuser I can view a list of all posts made by user in date order - WON'T HAVE
+2. As a developer/superuser I can view a single post so that I can see single post details, including comments - SHOULD HAVE
+3. As a developer/superuser I can create a new post so that this post will be displayed in the posts list - MUST HAVE
+4. As a developer/superuser I can edit a post that I created so that I can amend any missing or incorrect information on the post - MUST HAVE
+5. As a developer/superuser I can delete a post that I created so that I can delete post data from the API - MUST HAVE
 
 
 Milestone: Comments
 
 User Stories:
 
-1. As a developer/superuser I can create a comment so that I can link a comment to a post
+1. As a developer/superuser I can create a comment so that I can link a comment to a post - 
 2. As a developer/superuser I can view a list of all comments so that I can see all comments created in the API
 3. As a developer/superuser I can retrieve a single comment by ID so that I can edit or delete this comment
 4. As a developer/superuser I can edit a comment that I created so that I can amend any missing or incorrect information
@@ -213,6 +229,14 @@ User Stories:
 3. As a developer/superuser I can view a list of posts I have posted a like id to so that I can see only the posts I like
 
 
+
+Milestone: Saved 
+User Stories: 
+
+1. As a user, I want to be able to save listings to myp profile so that I can easily access them later - MUST HAVE
+2. As a user, I want to be able to organize and categorize my saved listings into folders or tags for better organization- WON'T HAVE
+3. As a user, I want to receive notifications when there are updates or changes to my saved listings - WON't HAVE
+4. AS a User, i want to be able to unsave from my profile. - MUST HAVE
 
 Edit Profile :
 
