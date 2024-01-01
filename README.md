@@ -88,7 +88,14 @@ Due to the time limit on this project I was not able to incorporate all initial 
 The project displays this by all projects being in the 'done' on the kaban board but with different labels. 
 
 
+
 # User Stories link https://github.com/users/sammaxfleet/projects/7/views/1
+
+# Kaban Board link https://github.com/users/sammaxfleet/projects/7/views/1
+
+<img width="1437" alt="Screenshot 2023-12-18 at 10 46 04" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/a8b4c61f-df5e-4b8e-8608-7d265ab47e1f">
+
+<img width="932" alt="Screenshot 2024-01-01 at 17 53 03" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/de312f07-b366-436e-a442-cbdec8ce31be">
 
 <img width="1432" alt="Screenshot 2023-12-18 at 10 35 14" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/8faf4bf5-3200-4b9a-ba4c-39eab1b7b68f">
 
@@ -97,6 +104,7 @@ The project displays this by all projects being in the 'done' on the kaban board
 
 
 ## User Stories 
+
 
 The primary objective of the API is to establish seamless communication between the backend and frontend components, enabling the fulfillment of user stories exclusively designed for the frontend aspect of the project. Below, you will find a comprehensive inventory of the user stories specifically tailored for the frontend:
 
