@@ -157,7 +157,7 @@ Epic: Navigation
 
 
 
-This or That's Functionality
+EPIC: This or That's Functionality
 
 
 1. As a user, I want to be able to search celebrity names to see my favourite outfits. - SHOULD HAVE
@@ -168,8 +168,7 @@ This or That's Functionality
 
 
 
-
-Milestone: Profiles App 
+EPIC: Profiles App 
 
 User Stories: 
 
@@ -179,8 +178,7 @@ User Stories:
 4. As a developer/superuser I can delete a profile that I own so that I can delete my user account from the API - MUST HAVE
 5. AS a developer/superuser I can have multiple accounts - WON'T HAVE
 
-
-Milestone: Posts
+EPIC: Posts
 
 User Stories: 
 
@@ -191,7 +189,7 @@ User Stories:
 5. As a developer/superuser I can delete a post that I created so that I can delete post data from the API - MUST HAVE
 
 
-Milestone: Comments
+EPIC: Comments
 
 User Stories:
 
@@ -201,7 +199,7 @@ User Stories:
 4. As a developer/superuser I can Edit a comment that I created so that I can amend any missing or incorrect information - MUST HAVE
 5. As a developer/superuser I can delete a comment which I created so that I can delete comment data from the API - MUST HAVE
 
-Milestone: Likes
+EPIC: Likes
 
 User Stories:
 
@@ -211,26 +209,25 @@ User Stories:
 4. As a developer/superuser I can view a list of all likedobjects so that I can see all liked objects created in the API - MUST HAVE
 
 
-Milestone: Followers
+EPIC: Followers
 
 User Stories: 
 
-1. As a developer/superuser I can create a follow so that I can follow another User - 
-2. As a developer/superuser I can view a list of follows so that I can see all the follows that have been created
-3. As a developer/superuser I can delete a follow so that I can unfollow another user profile
+1. As a developer/superuser I can create a follow so that I can follow another User - MUST HAVE 
+2. As a developer/superuser I can view a list of follows so that I can see all the follows that have been created - WON'T HAVE
+3. As a developer/superuser I can delete a follow so that I can unfollow another user profile - MUST HAVE
 
 
-Milestone: Search and Filter
+EPIC: Search and Filter
 
 User Stories: 
 
-1. As a developer/superuser I can see a search field in the events and posts list so that I can search for a specific event or post
-2. As a developer/superuser I can search by celebrity 
-3. As a developer/superuser I can view a list of posts I have posted a like id to so that I can see only the posts I like
+1. As a developer/superuser I can see a search for a keyword/ celebrity name - MUST HAVE 
+2. As a developer/superuser I can view a list of posts I have posted a like id to so that I can see only the posts I like - SHOULD HAVE 
 
 
+EPIC: Saved 
 
-Milestone: Saved 
 User Stories: 
 
 1. As a user, I want to be able to save listings to myp profile so that I can easily access them later - MUST HAVE
@@ -238,17 +235,18 @@ User Stories:
 3. As a user, I want to receive notifications when there are updates or changes to my saved listings - WON't HAVE
 4. AS a User, i want to be able to unsave from my profile. - MUST HAVE
 
-Edit Profile :
 
-Milestone: profile edit
 
-user story: editing profile 
+Epic: customized Post model 
 
-1. Celebrity search -
-2. Outfit description -
-3. fashion inspiration -
-4. Image -
-5.  Update/ Save 
+
+User Stories: 
+
+1. Celebrity search - MUST HAVE
+2. Outfit description - MUST HAVE
+3. fashion inspiration - MUST HAVE 
+4. Image - MUST HAVE 
+5.  Update/ Save  - MUST HAVE
 
 
 # Stucture Plane
