@@ -243,7 +243,7 @@ User Stories:
 4. AS a User, i want to be able to unsave from my profile. - MUST HAVE
 
 
-Epic: customized filtered search 
+Epic: Customized filtered search 
 
 
 User Stories: 
@@ -322,17 +322,16 @@ I also added the following fields to the Json DATA
 
 
       
-  Likes: 
+  ## Likes
 
   Within the Likes List section, a user can view a list of all likes made in the API.
 
   
 <img width="1227" alt="Screenshot 2023-12-18 at 14 46 39" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/cd120197-c3a1-4ab1-909d-7a20e5ef47e9">
 
-f the user logs in,  the ability to create a like becomes available if not they'll click but nothing will happen .
+if the user logs in,  the ability to create a like becomes available if not they'll click but nothing will happen .
 
-If a user tries to like the same post twice, they see an error message saying that they have already liked the selected post, and the duplicate like is not created. 
-The user can like and unlike any posts on the page including their own. 
+If a user tries to like the same post twice it won't work there is only an option to Unlike. 
 
 
 Comments:
@@ -345,7 +344,6 @@ Within the Comments List section, a user can view a list of all comments in the 
 
 
 Once logged in THE USER can then comment on posts. They can make changes to a post or even delete it. 
-
 
 
 
