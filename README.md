@@ -56,7 +56,8 @@ DEPLOYED FRONT END REPOSITORY - https://github.com/sammaxfleet/thisorthatpp5?tab
 
 # DATABASE FLOW CHART:
 
-<img width="655" alt="Screenshot 2023-12-12 at 14 32 27" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/eb92a86c-9ca7-4c08-beb6-c500243fff78">
+
+<img width="643" alt="Screenshot 2024-01-02 at 15 12 57" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/c25e1727-5493-4508-8ec5-9b944b5e2ac8">
 
 
 
