@@ -34,7 +34,7 @@ DEPLOYED FRONT END REPOSITORY - https://github.com/sammaxfleet/thisorthatpp5?tab
 - [The Skeleton Plane](#the-skeleton-plane)
 - [DATABASE FLOW CHART:](#database-flow-chart-)
 - [Strategy Plane](#strategy-plane)
-  * [Kaban Board link 
+  * [Kaban Board link](#kaban-board-link)
 - [Database Schema & Admin for the backend](#database-schema---admin-for-the-backend)
   * [Homepage:](#homepage-)
   * [Profile Date:](#profile-date-)
@@ -54,6 +54,7 @@ DEPLOYED FRONT END REPOSITORY - https://github.com/sammaxfleet/thisorthatpp5?tab
 - [Programmes & Tools used](#programmes---tools-used)
   * [Libraries](#libraries)
 - [Acknowledgements](#acknowledgements)
+
 
 
 
