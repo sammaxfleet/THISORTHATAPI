@@ -27,22 +27,31 @@ DEPLOYED FRONT END REPOSITORY - https://github.com/sammaxfleet/thisorthatpp5?tab
 
 
 # TABLE OF CONTENTS 
+
 - [THIS OR THAT API](#this-or-that-api)
 - [Description](#description)
 - [TABLE OF CONTENTS](#table-of-contents)
+- [The Skeleton Plane](#the-skeleton-plane)
 - [DATABASE FLOW CHART:](#database-flow-chart-)
 - [Strategy Plane](#strategy-plane)
-- [User Stories link https://github.com/users/sammaxfleet/projects/7/views/1](#user-stories-link-https---githubcom-users-sammaxfleet-projects-7-views-1)
-- [Stucture Plane](#stucture-plane)
+  * [Kaban Board link 
+- [Database Schema & Admin for the backend](#database-schema---admin-for-the-backend)
   * [Homepage:](#homepage-)
-  * [Profile Data:](#profile-data-)
+  * [Profile Date:](#profile-date-)
   * [Posts](#posts)
-- [TESTING](#testing)
+  * [Likes](#likes)
+  * [Comments:](#comments-)
+  * [Followers:](#followers-)
+  * [Saved:](#saved-)
+- [Manual Testing](#manual-testing)
+  * [User Stories](#user-stories)
+- [Automated TESTING](#automated-testing)
+- [PEP8 Validation](#pep8-validation)
 - [DEPLOYMENT to Heroku](#deployment-to-heroku)
 - [Local Deployment](#local-deployment)
 - [How To Fork The Repository On GitHub](#how-to-fork-the-repository-on-github)
-- [Languages](#languages)
-- [Frameworks & Software](#frameworks---software)
+- [Languages & Technologies Used](#languages---technologies-used)
+- [Programmes & Tools used](#programmes---tools-used)
   * [Libraries](#libraries)
 - [Acknowledgements](#acknowledgements)
 
@@ -92,7 +101,9 @@ Due to the time limit on this project I was not able to incorporate all initial 
 The project displays this by all projects being in the 'done' on the kaban board but with different labels. 
 
 
-## Kaban Board link https://github.com/users/sammaxfleet/projects/7/views/1
+## Kaban Board link 
+
+https://github.com/users/sammaxfleet/projects/7/views/1
 
 
 <img width="932" alt="Screenshot 2024-01-01 at 17 53 03" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/de312f07-b366-436e-a442-cbdec8ce31be">
