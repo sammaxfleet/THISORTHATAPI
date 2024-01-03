@@ -352,7 +352,7 @@ Once logged in THE USER can then comment on posts. They can make changes to a po
 
 
 
-Followers: 
+## Followers: 
 
 Within the Follower List section, a user can view a list of all follower posts in the API.
 
@@ -368,7 +368,7 @@ If a user tries to follow the same profile twice, it won't work only one follow 
 Once logged in, if the user views the details of a single follower post which they created additional Delete functionality becomes available. It is not possible to Edit a followers post.
 
 
-Saved: 
+## Saved: 
 
 Within the Saved List section, a user can view a list of all follower posts in the API.
 
