@@ -51,6 +51,8 @@ DEPLOYED FRONT END REPOSITORY - https://github.com/sammaxfleet/thisorthatpp5?tab
 
 # The Skeleton Plane 
 
+Showing the relationships for the Database Models 
+
 [FLOW CHART API PROJECT 5 (2).pdf](https://github.com/sammaxfleet/THISORTHATAPI/files/13811265/FLOW.CHART.API.PROJECT.5.2.pdf)
 
 
@@ -109,7 +111,7 @@ The project displays this by all projects being in the 'done' on the kaban board
 
 The primary objective of the API is to establish seamless communication between the backend and frontend components, enabling the fulfillment of user stories exclusively designed for the frontend aspect of the project. Below, you will find a comprehensive inventory of the user stories specifically tailored for the frontend:
 
-Apps  & MODELS Created: 
+Apps & MODELS Created: 
 
 (MAIN APP )- This Or That
 
@@ -279,7 +281,7 @@ When you first enter the API site, you are directed to the Root Route homepage, 
 
 
 
-## Profile Data: 
+## Profile Date: 
 
 Within the Profile List section, a user can view a list of all profiles in the API.
 
@@ -665,17 +667,29 @@ Steps:
 11. Python3 manage.py migrate - This will do the necessary migrations.
 12. Python3 manage.py runserver - If everything is setup correctly the project is now live locally.
 
-# Languages
 
-Python - Provides the functionality for the DRF backend framework.
 
-# Frameworks & Software
 
-Django RestFramework
-PEP8 Validation
-GitHub
-Cloudinary
-Heroku
+# Languages & Technologies Used
+
+Django: Django
+Python: Python
+Django 3.2.14: Django 3.2.14
+Django Rest Framework 3.14.0: Django Rest Framework 3.14.0
+
+
+# Programmes & Tools used 
+
+- Django RestFramework
+- PEP8 Validation
+- GitHub
+- Cloudinary
+- Heroku
+- CodeAnywhere
+- Gitpod
+- Draw SQL
+- Blasamiq
+
 
 
 ## Libraries 
@@ -699,6 +713,8 @@ sqlparse
 
 - My mentor at Code Institute Antonio Rodriguez, for code review, help and feedback. Very much appreciated!
 - Also the tutors at code institute particularly helping with the API build. 
-- My setpember code institute channel  for the support and weekly group chats. 
+- My setpember code institute channel  for the support and weekly group chats.
+- Peer Code Review channel also on slack
+  
 
 
