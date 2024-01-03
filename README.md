@@ -92,15 +92,123 @@ Due to the time limit on this project I was not able to incorporate all initial 
 The project displays this by all projects being in the 'done' on the kaban board but with different labels. 
 
 
-
-## User Stories link https://github.com/sammaxfleet/THISORTHATAPI/issues
-
 ## Kaban Board link https://github.com/users/sammaxfleet/projects/7/views/1
 
 
 <img width="932" alt="Screenshot 2024-01-01 at 17 53 03" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/de312f07-b366-436e-a442-cbdec8ce31be">
 
 <img width="1432" alt="Screenshot 2023-12-18 at 10 35 14" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/8faf4bf5-3200-4b9a-ba4c-39eab1b7b68f">
+
+# Database Schema & Admin for the backend
+
+
+## Homepage:
+
+
+When you first enter the API site, you are directed to the Root Route homepage, with a message welcoming you to the API,
+
+<img width="1435" alt="Screenshot 2023-12-18 at 14 31 16" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/0acf7ec6-c923-4c71-9c93-34d5e46ef488">
+
+
+
+## Profile Date: 
+
+Within the Profile List section, a user can view a list of all profiles in the API.
+
+<img width="1320" alt="Screenshot 2023-12-18 at 14 32 43" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/3f0fc8fe-91d3-4ad0-8361-4d1cc3fac65d">
+
+I also added the following fields to the Json DATA
+
+"is_owner": 
+"following_id": 
+"posts_count":
+"followers_count":
+"following_count": 
+
+If the user logs in, and views the detail of their own profile, additional Edit and Delete functionality becomes available. A pre-populated form is available to edit the profile model fields. A delete button is available to delete the profile from the API.
+
+## Posts
+
+
+Within the Posts List section, a user can view a list of all posts in the API.
+
+The Posts are in the order 'Date Added'. The ways to naviagte on the posts are below. 
+
+<img width="1324" alt="Screenshot 2023-12-18 at 14 36 15" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/9da305ee-696f-49ea-833f-99663120f990">
+
+I also added the following fields to the Json DATA
+
+            "id": 
+            "owner": 
+            "is_owner": 
+            "profile_id": 
+            "profile_image":
+            "created_at":
+            "updated_at": 
+            "title":
+            "content": 
+            "image": 
+            "image_filter":
+            "like_id":
+            "likes_count": 
+            "comments_count": 
+            "fashion_inspiration": 
+
+
+
+
+
+      
+ ## Likes
+
+  Within the Likes List section, a user can view a list of all likes made in the API.
+
+  
+<img width="1227" alt="Screenshot 2023-12-18 at 14 46 39" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/cd120197-c3a1-4ab1-909d-7a20e5ef47e9">
+
+if the user logs in,  the ability to create a like becomes available if not they'll click but nothing will happen .
+
+If a user tries to like the same post twice it won't work there is only an option to Unlike. 
+
+
+## Comments:
+
+Within the Comments List section, a user can view a list of all comments in the API.
+
+
+<img width="378" alt="Screenshot 2023-12-18 at 14 47 29" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/2053f171-8bb9-434e-8739-efd3c09cdf54">
+
+
+
+Once logged in THE USER can then comment on posts. They can make changes to a post, edit or even delete it. 
+
+
+
+## Followers: 
+
+Within the Follower List section, a user can view a list of all follower posts in the API.
+
+<img width="514" alt="Screenshot 2023-12-18 at 14 47 50" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/a71df09b-7399-4d82-be58-096e48e3f513">
+
+
+The User when logged in will be able to follow and unfollow different profiles.
+
+On the page popular users appears which enables to user to click on highly popular profiles straight away. 
+
+If a user tries to follow the same profile twice, it won't work only one follow is able, the unfollow option is also there. 
+
+Once logged in, if the user views the details of a single follower post which they created additional Delete functionality becomes available. It is not possible to Edit a followers post.
+
+
+## Saved: 
+
+Within the Saved List section, a user can view a list of all follower posts in the API.
+
+
+<img width="1216" alt="Screenshot 2024-01-02 at 12 49 48" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/feb49b33-378f-4df5-9ce2-9650b04e986e">
+
+The user when logged in will be able to save to profile and unsave.
+
 
 
 # Manual Testing
@@ -266,121 +374,7 @@ Epic: WORKING & DEPLOYED API
 
 
 
-# Database Schema & Admin for the backend
-
-
-
-## Homepage:
-
-
-When you first enter the API site, you are directed to the Root Route homepage, with a message welcoming you to the API,
-
-<img width="1435" alt="Screenshot 2023-12-18 at 14 31 16" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/0acf7ec6-c923-4c71-9c93-34d5e46ef488">
-
-
-
-## Profile Date: 
-
-Within the Profile List section, a user can view a list of all profiles in the API.
-
-<img width="1320" alt="Screenshot 2023-12-18 at 14 32 43" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/3f0fc8fe-91d3-4ad0-8361-4d1cc3fac65d">
-
-I also added the following fields to the Json DATA
-
-"is_owner": 
-"following_id": 
-"posts_count":
-"followers_count":
-"following_count": 
-
-If the user logs in, and views the detail of their own profile, additional Edit and Delete functionality becomes available. A pre-populated form is available to edit the profile model fields. A delete button is available to delete the profile from the API.
-
-## Posts
-
-
-Within the Posts List section, a user can view a list of all posts in the API.
-
-The Posts are in the order 'Date Added'. The ways to naviagte on the posts are below. 
-
-<img width="1324" alt="Screenshot 2023-12-18 at 14 36 15" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/9da305ee-696f-49ea-833f-99663120f990">
-
-I also added the following fields to the Json DATA
-
-            "id": 
-            "owner": 
-            "is_owner": 
-            "profile_id": 
-            "profile_image":
-            "created_at":
-            "updated_at": 
-            "title":
-            "content": 
-            "image": 
-            "image_filter":
-            "like_id":
-            "likes_count": 
-            "comments_count": 
-            "fashion_inspiration": 
-
-
-
-
-
-      
- ## Likes
-
-  Within the Likes List section, a user can view a list of all likes made in the API.
-
-  
-<img width="1227" alt="Screenshot 2023-12-18 at 14 46 39" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/cd120197-c3a1-4ab1-909d-7a20e5ef47e9">
-
-if the user logs in,  the ability to create a like becomes available if not they'll click but nothing will happen .
-
-If a user tries to like the same post twice it won't work there is only an option to Unlike. 
-
-
-## Comments:
-
-Within the Comments List section, a user can view a list of all comments in the API.
-
-
-<img width="378" alt="Screenshot 2023-12-18 at 14 47 29" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/2053f171-8bb9-434e-8739-efd3c09cdf54">
-
-
-
-Once logged in THE USER can then comment on posts. They can make changes to a post, edit or even delete it. 
-
-
-
-## Followers: 
-
-Within the Follower List section, a user can view a list of all follower posts in the API.
-
-<img width="514" alt="Screenshot 2023-12-18 at 14 47 50" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/a71df09b-7399-4d82-be58-096e48e3f513">
-
-
-The User when logged in will be able to follow and unfollow different profiles.
-
-On the page popular users appears which enables to user to click on highly popular profiles straight away. 
-
-If a user tries to follow the same profile twice, it won't work only one follow is able, the unfollow option is also there. 
-
-Once logged in, if the user views the details of a single follower post which they created additional Delete functionality becomes available. It is not possible to Edit a followers post.
-
-
-## Saved: 
-
-Within the Saved List section, a user can view a list of all follower posts in the API.
-
-
-<img width="1216" alt="Screenshot 2024-01-02 at 12 49 48" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/feb49b33-378f-4df5-9ce2-9650b04e986e">
-
-The user when logged in will be able to save to profile and unsave.
-
-
-This
-
-# TESTING
+# Automated TESTING
 
 - Code Validation
 - Automated Testing
@@ -489,6 +483,7 @@ LIKES APP - MODELS.PY
 
 
 FOLLOWERS APP:
+
 
 FOLLOWERS APP - MODELS.PY
 
