@@ -266,10 +266,8 @@ Epic: WORKING & DEPLOYED API
 
 
 
-# Stucture Plane & admin for the backend
+# Database Schema & Admin for the backend
 
-
-Features: 
 
 
 ## Homepage:
