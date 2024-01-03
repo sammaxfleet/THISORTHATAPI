@@ -299,6 +299,9 @@ If the user logs in, and views the detail of their own profile, additional Edit 
 
 
 Within the Posts List section, a user can view a list of all posts in the API.
+
+The Posts are in the order 'Date Added'. The ways to naviagte on the posts are below. 
+
 <img width="1324" alt="Screenshot 2023-12-18 at 14 36 15" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/9da305ee-696f-49ea-833f-99663120f990">
 
 I also added the following fields to the Json DATA
@@ -324,7 +327,7 @@ I also added the following fields to the Json DATA
 
 
       
-  ## Likes
+ ## Likes
 
   Within the Likes List section, a user can view a list of all likes made in the API.
 
@@ -336,7 +339,7 @@ if the user logs in,  the ability to create a like becomes available if not they
 If a user tries to like the same post twice it won't work there is only an option to Unlike. 
 
 
-Comments:
+## Comments:
 
 Within the Comments List section, a user can view a list of all comments in the API.
 
@@ -345,7 +348,7 @@ Within the Comments List section, a user can view a list of all comments in the 
 
 
 
-Once logged in THE USER can then comment on posts. They can make changes to a post or even delete it. 
+Once logged in THE USER can then comment on posts. They can make changes to a post, edit or even delete it. 
 
 
 
@@ -360,10 +363,22 @@ The User when logged in will be able to follow and unfollow different profiles.
 
 On the page popular users appears which enables to user to click on highly popular profiles straight away. 
 
-If a user tries to follow the same profile twice, they see an error message saying that they are already following the selected profile, and the duplicate follow post is not created.
+If a user tries to follow the same profile twice, it won't work only one follow is able, the unfollow option is also there. 
 
-Once logged in, if the user views the details of a single follower post which they created additional Delete functionality becomes available. It is not possible to Edit a follower post.
+Once logged in, if the user views the details of a single follower post which they created additional Delete functionality becomes available. It is not possible to Edit a followers post.
 
+
+Saved: 
+
+Within the Saved List section, a user can view a list of all follower posts in the API.
+
+
+<img width="1216" alt="Screenshot 2024-01-02 at 12 49 48" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/feb49b33-378f-4df5-9ce2-9650b04e986e">
+
+The user when logged in will be able to save to profile and unsave.
+
+
+This
 
 # TESTING
 
