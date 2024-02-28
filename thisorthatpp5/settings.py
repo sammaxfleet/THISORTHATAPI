@@ -5,9 +5,9 @@ import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get("SECRET_KEY", "1@c^2pjh01$-!y%b5aw0-sc+g4wyf7tpbw#kjd!ci4m%c(_oi^")
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '8000-sammaxfleet-thisorthata-0wz3o5ksspq.ws-eu108.gitpod.io',
