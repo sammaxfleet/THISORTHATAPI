@@ -23,21 +23,33 @@ class Post(models.Model):
         ('walden', 'Walden'),
         ('xpro2', 'X-pro II')
     ]
-    owner = models.ForeignKey(User, on_delete=models.CASCADE)
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-    title = models.CharField(max_length=255)
-    
-    content = models.TextField(blank=True)
-    fashion_inspiration = models.TextField(null=True,blank=True,)
+    owner = models.ForeignKey(
+        User, on_delete=models.CASCADE,
+        verbose_name='Owner',
+        help_text='The user who owns this post.'
+    )
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name='Created At')
+    updated_at = models.DateTimeField(auto_now=True, verbose_name='Updated At')
+    title = models.CharField(max_length=255, verbose_name='Title')
+    content = models.TextField(blank=True, verbose_name='Content',)
+    fashion_inspiration = models.TextField(
+        null=True, blank=True,
+        verbose_name='Fashion Inspiration',
+        help_text='Optional field for fashion inspiration related to the post.'
+    )
     image = models.ImageField(
-        upload_to='images/', default='../default_post_rgq6aq', blank=True
+        upload_to='images/', default='../default_post_rgq6aq', blank=True,
+        verbose_name='Image'
     )
     image_filter = models.CharField(
-        max_length=32, choices=image_filter_choices, default='normal'
+        max_length=32, choices=image_filter_choices, default='normal',
+        verbose_name='Image Filter',
+        help_text='Choose a filter for the post image.'
     )
 
     class Meta:
+        verbose_name = 'Post'
+        verbose_name_plural = 'Posts'
         ordering = ['-created_at']
 
     def __str__(self):
