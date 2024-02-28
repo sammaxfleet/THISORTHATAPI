@@ -106,7 +106,7 @@ REST_FRAMEWORK = {
     #     'rest_framework.renderers.JSONRenderer',
     # ] 
 }
-
+CORS_ALLOW_ALL_ORIGINS = True
 REST_USE_JWT = True
 JWT_AUTH_SECURE = True
 JWT_AUTH_COOKIE = 'my-app-auth'
