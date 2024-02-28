@@ -83,8 +83,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-if not 'DEV' in os.environ:
-    DATABASES['default'] = dj_database_url.config(conn_max_age=600)
+DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 # Configure Cloudinary
 CLOUDINARY_STOREAGE = {
     'CLOUDINARY_URL': os.environ.get('CLOUDINARY_URL')
