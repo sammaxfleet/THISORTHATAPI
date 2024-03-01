@@ -474,6 +474,113 @@ Epic: WORKING & DEPLOYED API
 
 *Note: The above detailed endpoint also supports DELETE and PUT requests.*
 
+### 5. Comments
+
+**Request**: GET `/comments/`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1219" alt="Comments Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/7faf1f4e-152a-4981-9a45-09cddeb95809">
+</details>
+
+**Comments Details**
+
+**Request**: GET `/comments/:id`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1339" alt="Comments Details Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/38f44f5b-8dcb-4929-b532-744bf2beffcd">
+</details>
+
+**Comment Create**
+
+**Request**: POST `/comments/`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1235" alt="Comment Create Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/672d0c17-7cee-422e-b8ad-b6ce5475c913">
+</details>
+
+**Comment Create Response**
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1295" alt="Comment Create Response Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/7a467043-1ed0-4aaf-9370-1c9592bebbe6">
+</details>
+
+*Note: If the user is the owner of the comment, they will be able to make a POST request and DELETE request from the detail endpoint `/comments/:id`.*
+
+### 6. Likes
+
+**Request**: GET `/likes/` (supports filters)
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1210" alt="Likes Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/16540da7-0b84-4cb0-ba32-b6d7649cf2f0">
+</details>
+
+**Likes Create**
+
+**Request**: POST `/likes/`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1209" alt="Likes Create Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/1efc589a-64cb-4421-9337-e6c0bf82727f">
+</details>
+
+**Likes Detail**
+
+**Request**: GET `/likes/:id`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1207" alt="Likes Detail Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/fbdf295f-cbee-40ab-b4b0-df16c20bcbd1">
+</details>
+
+### 7. Followers
+
+**Request**: GET `/followers/`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1239" alt="Followers Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/d98f904a-6c5b-4130-8388-adc42d256368">
+</details>
+
+**Followers Create**
+
+**Request**: POST `/followers/`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1209" alt="Followers Create Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/ccf4d658-7565-4b61-9f8b-e7888f889600">
+</details>
+
+**Followers Detail**
+
+**Request**: GET PUT DELETE `/followers/:id` (if owner, then can make PUT and DELETE requests)
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1201" alt="Followers Detail Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/b9bc8128-6643-4519-a80b-6951bed552b2">
+</details>
+
+### 8. Saved
+
+**Request**: GET `/saved` (shows all saved posts of logged-in user, also supports PUT and DELETE requests on Detail route `/saved/:id`)
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1176" alt="Saved Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/adbfaa10-804e-4464-b136-da57f414d0b4">
+</details>
+
+
+
+
+
+
+
+
+
 
 
 
