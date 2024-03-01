@@ -574,6 +574,11 @@ Epic: WORKING & DEPLOYED API
 </details>
 
 
+### Customized Django Models and Admin
+
+In our backend API built with DjangoRest Framework, we've tailored our Django models to enhance readability and usability by incorporating features such as `verbose_name`, `verbose_name_plural`, and `help_text`. These customizations make the models more descriptive and user-friendly, aiding developers in understanding the purpose of each field and model.
+
+Furthermore, we've extended this customization to the Django admin interface for each model. By doing so, we've enabled advanced functionalities such as filtering, searching, and a custom table view within the Django admin. These enhancements streamline administrative tasks, empowering administrators to efficiently manage and interact with the data through the Django admin interface.
 
 
 
