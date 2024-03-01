@@ -386,6 +386,99 @@ Epic: WORKING & DEPLOYED API
 
 
 
+# Screenshots for Manual Testing
+
+### 1. Registration Endpoint
+
+**Request**: POST `/dj-rest-auth/registeration`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1155" alt="Registration Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/4abbd245-fe82-4878-bdd4-1f1b1f18e787">
+</details>
+
+**Response**
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1143" alt="Registration Response Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/3f017be9-0ff1-4db1-be13-1f8aa48afa04">
+</details>
+
+### 2. Login Endpoint
+
+**Request**: POST `/dj-rest-auth/login`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1176" alt="Login Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/49586254-4f4f-4e88-a2b4-2ff02c08206a">
+</details>
+
+**Response**
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1184" alt="Login Response Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/7389a9e5-936c-405b-b6bc-a5e0ef1de4f3">
+</details>
+
+### 3. Profiles Endpoint
+
+**Request**: GET `/profiles`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1181" alt="Profiles Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/9c7a16b2-0c02-4a34-a660-10df425b5c1a">
+</details>
+
+**Profiles Detail Endpoint**
+
+**Request**: GET `/profiles/:id`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1206" alt="Profiles Detail Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/471c348f-9ee3-4681-9116-5db20dd65a59">
+</details>
+
+### 4. Posts Endpoint
+
+**Request**: GET `/posts/`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1186" alt="Posts Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/0c26c6e3-a94a-400e-a450-bb67c36fe982">
+</details>
+
+**Posts Create Endpoint**
+
+**Request**: POST `/posts/`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1186" alt="Posts Create Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/0c26c6e3-a94a-400e-a450-bb67c36fe982">
+</details>
+
+**Response**
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1164" alt="Posts Response Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/65f80795-2537-4dfa-ba22-137d54a2046e">
+</details>
+
+**Post Detail Endpoint**
+
+**Request**: GET `/posts/:id`
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1253" alt="Post Detail Endpoint Screenshot" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/6fe72e10-3038-487d-82ef-50b5e4e067f9">
+</details>
+
+*Note: The above detailed endpoint also supports DELETE and PUT requests.*
+
+
+
+
+
+
 # Automated TESTING
 
 - Code Validation
