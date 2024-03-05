@@ -8,8 +8,8 @@ class ContactFormViewSet(viewsets.ModelViewSet):
     permission_classes = []  # Apply permission class to require authentication
     serializer_class = ContactFormSerializer
     def perform_create(self, serializer):
-        # Automatically assign the logged-in user to the 'user' field
         if self.request.user.is_authenticated:
             serializer.save(user=self.request.user)
-        else :
-            serializer.save()
+        else:
+            # If the user is not authenticated, exclude 'user' field from the serializer's data
+            serializer.save(user=None)
