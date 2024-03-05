@@ -574,6 +574,18 @@ Epic: WORKING & DEPLOYED API
 </details>
 
 
+### 9. Contact Form 
+**Request**: GET POST `/contact` (shows all the contacts  also supports PUT and DELETE requests on Detail route `/contact/:id`)
+
+<details>
+<summary>Click to View Screenshot</summary>
+<img width="1319" alt="Screenshot 2024-03-05 at 12 20 06" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/f4389005-c981-49d8-9340-d755561afee2">
+
+</details>
+
+
+
+
 ### Customized Django Models and Admin
 
 In our backend API built with DjangoRest Framework, we've tailored our Django models to enhance readability and usability by incorporating features such as `verbose_name`, `verbose_name_plural`, and `help_text`. These customizations make the models more descriptive and user-friendly, aiding developers in understanding the purpose of each field and model.
