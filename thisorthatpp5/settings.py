@@ -11,6 +11,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '8000-sammaxfleet-thisorthata-0wz3o5ksspq.ws-eu108.gitpod.io',
+    '8000-sammaxfleet-thisorthata-zcr3kzigcxz.ws-eu108.gitpod.io',
     'thisorthatpp5-9e3adcfaf8e9.herokuapp.com',
     '8000-sammaxfleet-thisorthatap-vzieb9jmop.us2.codeanyapp.com',
     'thisorthatapi-56bb400a2b0e.herokuapp.com',
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'likes',
     'followers',
     'saved',
+    'contactform'
 ]
 
 MIDDLEWARE = [
