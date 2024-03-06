@@ -1,5 +1,10 @@
 # THIS OR THAT API
 
+Things Worked on Since Last Submission:
+
+1. Manual Testing API endpoints documentation
+2. Adding another customized model (Contact page)
+
 # Description
 
 This project is the backend built to help support the REACTJS frontend, and it is powered by the DJANGO REST FRAMEWORK.
@@ -22,7 +27,6 @@ DEPLOYED BACK END API LINK - https://thisorthatapi-56bb400a2b0e.herokuapp.com/
 DEPLOYED FRONT END LIVE SITE - https://thisorthatpp5-9e3adcfaf8e9.herokuapp.com/
 
 DEPLOYED FRONT END REPOSITORY - https://github.com/sammaxfleet/thisorthatpp5?tab=readme-ov-file
-
 
 
 
