@@ -383,10 +383,20 @@ User Stories:
 5.  Update/ Save  - MUST HAVE
 
 
+Epic:: Contact Model
+
+1. Create Model
+2. Be able to contact if not signed up aswell as logged in, give 2 different options.
+3. Email filiter
+4. Reason filter
+5. Description filter
+
+
 Epic: WORKING & DEPLOYED API
 
 1. GET THE ADMIN WORKING - MUST HAVE
 2. DEPLOY THE API SO THE APPS OR WORKING 0 MUST HAVE
+
 
 
 
