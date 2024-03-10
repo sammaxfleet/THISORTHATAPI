@@ -73,7 +73,7 @@ Showing the relationships for the Database Models
 # DATABASE FLOW CHART:
 
 
-<img width="643" alt="Screenshot 2024-01-02 at 15 12 57" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/c25e1727-5493-4508-8ec5-9b944b5e2ac8">
+[FLOW CHART API PROJECT 5 (2).pdf](https://github.com/sammaxfleet/THISORTHATAPI/files/14550080/FLOW.CHART.API.PROJECT.5.2.pdf)
 
 
 
