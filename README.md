@@ -788,6 +788,25 @@ SAVED APP - SERIALIZERS.PY
 <img width="1187" alt="SAVEDSERIALIZERSPY" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/9db3e579-a25f-42c6-b2df-68eb9d3d2502">
 
 
+Contact APP:
+
+
+Views.PY:
+
+<img width="1168" alt="Screenshot 2024-03-10 at 12 46 31" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/e72de5df-0d0d-4d3e-acf1-5b4f5540414d">
+
+Urls.py: 
+
+<img width="1206" alt="Screenshot 2024-03-10 at 12 47 04" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/f2c2d600-ec93-4b10-b34d-888d0f163458">
+
+Models.py: 
+<img width="1177" alt="Screenshot 2024-03-10 at 12 48 36" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/e3b62045-bb38-460e-81bb-1727046e7452">
+
+serializers.py
+<img width="1132" alt="Screenshot 2024-03-10 at 12 49 37" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/5fe56ce5-031a-4b17-a40d-468a98fb3828">
+
+
+
 # DEPLOYMENT to Heroku 
 
 The project was deployed to Heroku, the deployment process is as follows:
