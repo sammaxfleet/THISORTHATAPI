@@ -227,7 +227,6 @@ The user when logged in will be able to save to profile and unsave.
 
 
 
-# Manual Testing
 
 
 ## User Stories 
@@ -399,8 +398,7 @@ Epic: WORKING & DEPLOYED API
 
 
 
-
-# Screenshots for Manual Testing
+# Manual Testing
 
 ### 1. Registration Endpoint
 
@@ -593,7 +591,8 @@ Epic: WORKING & DEPLOYED API
 
 <details>
 <summary>Click to View Screenshot</summary>
-<img width="1319" alt="Screenshot 2024-03-05 at 12 20 06" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/f4389005-c981-49d8-9340-d755561afee2">
+
+<img width="1254" alt="Screenshot 2024-03-10 at 12 09 55" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/9da945d6-7c4f-4072-b1a8-c4395aceffa7">
 
 </details>
 
