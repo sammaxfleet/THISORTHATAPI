@@ -127,7 +127,7 @@ When you first enter the API site, you are directed to the Root Route homepage, 
 
 
 
-## Profile Date: 
+## Profile Data: 
 
 Within the Profile List section, a user can view a list of all profiles in the API.
 
