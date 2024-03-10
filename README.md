@@ -41,14 +41,25 @@ DEPLOYED FRONT END REPOSITORY - https://github.com/sammaxfleet/thisorthatpp5?tab
   * [Kaban Board link](#kaban-board-link)
 - [Database Schema & Admin for the backend](#database-schema---admin-for-the-backend)
   * [Homepage:](#homepage-)
-  * [Profile Date:](#profile-date-)
+  * [Profile Data:](#profile-data-)
   * [Posts](#posts)
   * [Likes](#likes)
   * [Comments:](#comments-)
   * [Followers:](#followers-)
   * [Saved:](#saved-)
-- [Manual Testing](#manual-testing)
+  * [Contact page](#contact-page)
   * [User Stories](#user-stories)
+- [Manual Testing](#manual-testing)
+    + [1. Registration Endpoint](#1-registration-endpoint)
+    + [2. Login Endpoint](#2-login-endpoint)
+    + [3. Profiles Endpoint](#3-profiles-endpoint)
+    + [4. Posts Endpoint](#4-posts-endpoint)
+    + [5. Comments](#5-comments)
+    + [6. Likes](#6-likes)
+    + [7. Followers](#7-followers)
+    + [8. Saved](#8-saved)
+    + [9. Contact Form](#9-contact-form)
+    + [Customized Django Models and Admin](#customized-django-models-and-admin)
 - [Automated TESTING](#automated-testing)
 - [PEP8 Validation](#pep8-validation)
 - [DEPLOYMENT to Heroku](#deployment-to-heroku)
@@ -58,6 +69,9 @@ DEPLOYED FRONT END REPOSITORY - https://github.com/sammaxfleet/thisorthatpp5?tab
 - [Programmes & Tools used](#programmes---tools-used)
   * [Libraries](#libraries)
 - [Acknowledgements](#acknowledgements)
+
+
+
 
 
 
@@ -606,10 +620,6 @@ Epic: WORKING & DEPLOYED API
 In our backend API built with DjangoRest Framework, we've tailored our Django models to enhance readability and usability by incorporating features such as `verbose_name`, `verbose_name_plural`, and `help_text`. These customizations make the models more descriptive and user-friendly, aiding developers in understanding the purpose of each field and model.
 
 Furthermore, we've extended this customization to the Django admin interface for each model. By doing so, we've enabled advanced functionalities such as filtering, searching, and a custom table view within the Django admin. These enhancements streamline administrative tasks, empowering administrators to efficiently manage and interact with the data through the Django admin interface.
-
-
-
-
 
 
 
