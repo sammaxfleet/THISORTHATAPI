@@ -2,8 +2,8 @@
 
 Things Worked on Since Last Submission:
 
-1. Manual Testing API endpoints documentation
-2. Adding another customized model (Contact page)
+1. Manual Testing API endpoints documentation Adding Screenshots as asked. 
+2. Adding another customized model added (Contact page)
 
 # Description
 
