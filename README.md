@@ -67,7 +67,8 @@ DEPLOYED FRONT END REPOSITORY - https://github.com/sammaxfleet/thisorthatpp5?tab
 
 Showing the relationships for the Database Models 
 
-[FLOW CHART API PROJECT 5 (2).pdf](https://github.com/sammaxfleet/THISORTHATAPI/files/13811265/FLOW.CHART.API.PROJECT.5.2.pdf)
+<img width="940" alt="Screenshot 2024-03-10 at 12 53 39" src="https://github.com/sammaxfleet/THISORTHATAPI/assets/114914739/a659f3b3-06c1-4519-a738-c4a457683b47">
+
 
 
 # DATABASE FLOW CHART:
