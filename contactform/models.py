@@ -15,4 +15,4 @@ class ContactForm(models.Model):
     description = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True, verbose_name="Created At")
     def __str__(self):
-        return self.title
+        return self.reason
