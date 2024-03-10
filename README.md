@@ -615,15 +615,12 @@ Epic: WORKING & DEPLOYED API
 
 
 
-### Customized Django Models and Admin
-
-In our backend API built with DjangoRest Framework, we've tailored our Django models to enhance readability and usability by incorporating features such as `verbose_name`, `verbose_name_plural`, and `help_text`. These customizations make the models more descriptive and user-friendly, aiding developers in understanding the purpose of each field and model.
-
-Furthermore, we've extended this customization to the Django admin interface for each model. By doing so, we've enabled advanced functionalities such as filtering, searching, and a custom table view within the Django admin. These enhancements streamline administrative tasks, empowering administrators to efficiently manage and interact with the data through the Django admin interface.
+### Customized Django Models 
 
 
+I have 2 customized Django models,
 
-
+The Saved Feature for the App & A Contact Page to keep in line with the criteria.
 
 
 
@@ -958,21 +955,18 @@ Django Rest Framework 3.14.0: Django Rest Framework 3.14.0
 
 
 
-## Libraries 
+## Libraries & Frameworks
 
-Cloudinary
-dj - rest- auth
-Django
-django-allauth
-django-cloudinary-storage 
-django-cors-headers 
-django-filter
-django-taggit 
-django-rest-framework 
-gunicorn
-pillow 
-psycopg2
-sqlparse
+Cloudinary : Cloudinary is an end-to-end image- and video-management solution for websites and mobile apps, covering everything from image and video uploads, storage, manipulations, optimizations to delivery.
+dj - rest- auth : Drop-in API endpoints for handling authentication securely in Django Rest Framework.
+Django: Django is a high-level Python web framework that enables rapid development of secure and maintainable websites.
+django-allauth : Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication. 
+django-rest-framework : Django REST framework is a powerful and flexible toolkit for building Web APIs. 
+gunicorn : Gunicorn is a pure Python WSGI server with simple configuration and multiple worker implementations for performance tuning. 
+pillow : Pillow formerly Python Imaging Library (PIL) is a free library for the Python programming language 
+psycopg2 : Psycopg is the most popular PostgreSQL database adapter for the Python programming language.
+sqlparse : sqlparse is a non-validating SQL parser for Python.
+
 
 
 # Acknowledgements 
